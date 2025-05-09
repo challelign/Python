@@ -1,0 +1,6 @@
+*.puc
+__pycache__
+.env
+.venv
+.vscode/
+*.png
