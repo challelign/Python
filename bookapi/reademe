@@ -1,3 +1,10 @@
+#  stopping all Python processes 
+taskkill /F /IM python.exe
+
+uvicorn bookapi.books:app --reload --reload-dir=./bookapi
+
+
+
 # TO CREATE THE ENVIRONMNET
 python -m venv fastapienv
 # TO ACTIVATE THE ENVIRONMNET 
