@@ -28,6 +28,9 @@ or
 # TO THIS COMMAND WORK YOU NEED TO INSTALL THIS PAKAGE
 pip install "fastapi[standard]"
 
+pip show uvicorn
+
+
 # THEN RUN 
 fastapi run/dev [fileName].py
 fastapi run books.py 

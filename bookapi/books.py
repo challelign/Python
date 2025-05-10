@@ -5,7 +5,7 @@ app = FastAPI()
 
 
 BOOKS = [
-    {"title": "Alex", "author": "Alex Mackalister", "category": "Footballer"},
+    {"title": "Alexd", "author": "Alex Mackalister", "category": "Footballer"},
     {"title": "The Silent", "author": "Alex Michaelides", "category": "Thriller"},
     {"title": "Atomic Habits", "author": "James Clear", "category": "Self-Help"},
     {"title": "Educated", "author": "Tara Westover", "category": "Memoir"},
