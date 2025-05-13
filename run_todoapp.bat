@@ -13,4 +13,4 @@ REM Activate the virtual environment
 call .venv\Scripts\activate.bat
 
 REM Run Uvicorn
-python -m uvicorn bookapi.books2:app --reload --reload-dir=./bookapi
+call python -m uvicorn TodoApp.main:app --reload --reload-dir=./TodoApp
