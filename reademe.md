@@ -44,7 +44,7 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 pyenv --version
 
 # TO CHECK THE PYTHON VERSION
-pyenv exec python -v
+pyenv exec python -V
 
 # TO CREATE A VIRTUAL ENVIRONMENT
 pyenv exec python -m venv .venv

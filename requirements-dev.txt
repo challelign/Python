@@ -1,1 +1,7 @@
 ruff
+
+# Ruff is a fast Python linter and code formatter designed to improve code quality.
+# Speed: Ruff is built for performance and can process code much faster than traditional linters.
+# Linting: It checks for various types of issues, including style violations, potential bugs, and code smells.
+# Configurability: Users can customize which checks to enable or disable according to their project's needs.
+# Integration: Ruff can be easily integrated into existing development workflows, including CI/CD pipelines.
