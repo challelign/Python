@@ -37,6 +37,9 @@ fastapi run books.py
 
 # The easiest way to install pyenv-win is to run the following installation command in a PowerShell terminal:
 # This will download the installation script and execute it. The script will install pyenv-win to the default location, which is C:\Users\{User}\.pyenv.
+First run this To allow all scripts to run
+Set-ExecutionPolicy Unrestricted
+
 Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
 
 
